@@ -1,0 +1,4 @@
+<map id="main.DuplicateRemover.check_output_name" name="main.DuplicateRemover.check_output_name">
+<area shape="rect" id="node1" title="Проверка передал ли пользователь вторым аргументом имя, а не флаг" alt="" coords="233,5,431,47"/>
+<area shape="rect" id="node2" href="$classmain_1_1_duplicate_remover.html#a6bc97242214d88e242495135f17abb03" title="Удаляет из списка списка line_list dct повторяющиеся элементы." alt="" coords="5,5,185,47"/>
+</map>

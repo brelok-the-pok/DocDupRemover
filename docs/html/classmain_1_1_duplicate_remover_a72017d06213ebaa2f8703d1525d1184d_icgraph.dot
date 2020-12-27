@@ -1,0 +1,10 @@
+digraph "main.DuplicateRemover.get_line_case"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="RL";
+  Node1 [label="main.DuplicateRemover.get\l_line_case",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Возвращает строку в нужном регистре в зависимости флага"];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="main.DuplicateRemover.get\l_unique_lines",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classmain_1_1_duplicate_remover.html#a6bc97242214d88e242495135f17abb03",tooltip="Удаляет из списка списка line_list dct повторяющиеся элементы."];
+}

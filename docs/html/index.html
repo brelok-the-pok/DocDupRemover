@@ -1,0 +1,131 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.20"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Удалитель повторений: Удалитель повторяющихся строк</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="768px-Python-logo-notext.svg.png"/></td>
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Удалитель повторений
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Программа удаляет повторяющиеся строки в тексте</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Создано системой Doxygen 1.8.20 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'Поиск');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','Поиск');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+</div><!-- top -->
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div class="PageDoc"><div class="header">
+  <div class="headertitle">
+<div class="title">Удалитель повторяющихся строк </div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><h1><a class="anchor" id="description_main"></a>
+Описание</h1>
+<p>Данная программа предназначена для удаления повторяющихся строк в тексте.<br  />
+ Строки могут быть восприняты повторяющимися в нескольких случаях:</p><ol type="1">
+<li>Строки абсолютно совпадают<br  />
+</li>
+<li>Указан флаг -distance и значение расстояние Левенштейна меджу строками меньше указаного<br  />
+</li>
+<li>Указан флаг -natural и для человека строки выглядят одинкого, несмотря на то, что состояит из разных символов</li>
+<li>Указан флаг -case, означающий, что сравнение строк идёт без учёта регистров</li>
+</ol>
+<h1><a class="anchor" id="flags"></a>
+Флаги программы</h1>
+<p>Программа имеет 4 флага:</p><ol type="1">
+<li>-distance &lt;число&gt; - Если расстояние Левенштейна между строками меньше или равно указаного числа, то строки будут считаться одинаковыми</li>
+<li>-natural - если для человека строки выглядят одинкого, несмотря на то, что состояит из разных символов, они буду считаться одинаковыми</li>
+<li>-case - если при приведение к одному регистру строки одинаковы, то они будут считать одинаковыми</li>
+<li>-timeit - будет произведёт расчёт времени выполнения основных функций програмы (чтение, удаление повторяющихся строк, запись)</li>
+</ol>
+<h1><a class="anchor" id="call_prog"></a>
+Вызов программы</h1>
+<p>Для самого простого вызова программы нужно написать в консоли следующее<br  />
+ <a class="el" href="main_8py.html" title="Удалитель повторяющихся строк.">main.py</a> имя_входного_файла<br  />
+ В этом случае весь вывод программы будет произведёт в косоль флаги будут поставлены в сначения False, а расстояние Левенштейна будет равно 0 </p>
+<h1><a class="anchor" id="examples"></a>
+Примеры вызова программы</h1>
+<p>Пример 1<br  />
+ <a class="el" href="main_8py.html" title="Удалитель повторяющихся строк.">main.py</a> имя_входного_файла имя_выходного_файла<br  />
+ Из входного файла будут прочитаны данные, уникальные строки будут записаны в выходной, все флаги будут поставлены в сначения False, а расстояние Левенштейна будет равно 0</p>
+<p>Пример 2<br  />
+ <a class="el" href="main_8py.html" title="Удалитель повторяющихся строк.">main.py</a> имя_входного_файла имя_выходного_файла -distance 5<br  />
+ Из входного файла будут прочитаны данные, уникальные строки будут записаны в выходной, все флаги будут поставлены в сначения False, а расстояние Левенштейна будет равно 5</p>
+<p>Пример 3<br  />
+ <a class="el" href="main_8py.html" title="Удалитель повторяющихся строк.">main.py</a> имя_входного_файла имя_выходного_файла -distance 4 -case<br  />
+ Из входного файла будут прочитаны данные, уникальные строки будут записаны в выходной, все флаги кроме case будут поставлены в сначения False, а расстояние Левенштейна будет равно 4</p>
+<p>Пример 4<br  />
+ <a class="el" href="main_8py.html" title="Удалитель повторяющихся строк.">main.py</a> имя_входного_файла имя_выходного_файла -distance 3 -case -timeit<br  />
+ Из входного файла будут прочитаны данные, уникальные строки будут записаны в выходной, все флаги кроме case и timeit будут поставлены в сначения False, а расстояние Левенштейна будет равно 5 Пример 5<br  />
+ <a class="el" href="main_8py.html" title="Удалитель повторяющихся строк.">main.py</a> имя_входного_файла имя_выходного_файла -distance 2 -case -timeit natural<br  />
+ Из входного файла будут прочитаны данные, уникальные строки будут записаны в выходной, все флаги будут поставлены в сначения True, а расстояние Левенштейна будет равно 5</p>
+<p>Пример 6<br  />
+ <a class="el" href="main_8py.html" title="Удалитель повторяющихся строк.">main.py</a> имя_входного_файла имя_выходного_файла -distance<br  />
+ Из входного файла будут прочитаны данные, уникальные строки будут записаны в выходной, все флаги будут поставлены в сначения False, а расстояние Левенштейна будет равно 0, поскольку не было передано значение</p>
+<h1><a class="anchor" id="notes_main"></a>
+Заметки</h1>
+<ul>
+<li>Заметок пока что нет</li>
+</ul>
+<h1><a class="anchor" id="author_doxygen_example"></a>
+Автор</h1>
+<ul>
+<li>Толочек Юрий 11/11/2020. 2020 Толочек Юрий. </li>
+</ul>
+</div></div><!-- PageDoc -->
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Создано системой&#160;<a href="http://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.8.20
+</small></address>
+</body>
+</html>

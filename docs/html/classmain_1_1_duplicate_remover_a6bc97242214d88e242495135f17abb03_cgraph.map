@@ -1,0 +1,6 @@
+<map id="main.DuplicateRemover.get_unique_lines" name="main.DuplicateRemover.get_unique_lines">
+<area shape="rect" id="node1" title="Удаляет из списка списка line_list dct повторяющиеся элементы." alt="" coords="5,39,185,80"/>
+<area shape="rect" id="node2" href="$classmain_1_1_duplicate_remover.html#a72017d06213ebaa2f8703d1525d1184d" title="Возвращает строку в нужном регистре в зависимости флага" alt="" coords="233,5,413,47"/>
+<area shape="rect" id="node3" href="$classmain_1_1_duplicate_remover.html#ae4d5435e3d14e163d3a46bb6312059a7" title="Возвращает строку в натуральном либо оригинальном виде зависимости флага" alt="" coords="233,71,413,112"/>
+<area shape="rect" id="node4" href="$classmain_1_1_duplicate_remover.html#a54e80fc72745a99bf1737dee55cad348" title="Функция замены похожих букв" alt="" coords="461,71,665,112"/>
+</map>

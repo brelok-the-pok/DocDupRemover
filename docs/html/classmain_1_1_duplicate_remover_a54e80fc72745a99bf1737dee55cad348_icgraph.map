@@ -1,0 +1,5 @@
+<map id="main.DuplicateRemover.replace_natural" name="main.DuplicateRemover.replace_natural">
+<area shape="rect" id="node1" title="Функция замены похожих букв" alt="" coords="461,5,665,47"/>
+<area shape="rect" id="node2" href="$classmain_1_1_duplicate_remover.html#ae4d5435e3d14e163d3a46bb6312059a7" title="Возвращает строку в натуральном либо оригинальном виде зависимости флага" alt="" coords="233,5,413,47"/>
+<area shape="rect" id="node3" href="$classmain_1_1_duplicate_remover.html#a6bc97242214d88e242495135f17abb03" title="Удаляет из списка списка line_list dct повторяющиеся элементы." alt="" coords="5,5,185,47"/>
+</map>
